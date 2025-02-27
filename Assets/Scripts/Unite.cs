@@ -27,15 +27,12 @@ public class Unite : MonoBehaviour
     public float delaiAttaque { get; private set; }
     public float distanceAttaque { get; private set; }
     public float rayonAttaque { get; private set; }
-    
     // TS = Time Stamp (de la derniere attaque)
     private float tsDerniereAttaque;
     private float tsCreation;
-    private NavMeshAgent agent;
-    
-    
-    public 
-    void Start()
+    public NavMeshAgent agent{ get; private set; }
+    public Equipe equipe { get; private set; }
+    public void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         tsCreation = Time.time;
@@ -92,7 +89,16 @@ public class Unite : MonoBehaviour
 
         if (pointsVie <= 0f)
         {
-            //TODO : mouwiw, Kapute, Finito
+            //mouwiw, Kapute, Finito
+            
+            //Aviser l'equipe
+            equipe.UniteMorte(this);
+            //
+            Destroy(gameObject);
         }
+    }
+    public void SetEquipe(Equipe equipe)
+    {
+        this.equipe = equipe;
     }
 }

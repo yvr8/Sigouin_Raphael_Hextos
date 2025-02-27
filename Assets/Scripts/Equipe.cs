@@ -1,32 +1,66 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class E : MonoBehaviour
+public class Equipe : MonoBehaviour
 {
     public GameObject prefabFantassin;
     List<Unite> unites = new List<Unite>();
+    public TourRavitaillement[] tourRavitaillements { get; private set; }
+    public int nbVieRestantes = 100;
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Renforcer", 1f, 15f);
+        InvokeRepeating("Renforcer", 1f, 1f);
+        
+        //assigner la liste des tours 
+        tourRavitaillements = FindObjectsOfType<TourRavitaillement>();
     }
 
-    void Renforcer()
+    public void Renforcer()
     {
         int nbUniteBase = 5;
-        int nbTours = 2;
-        int nbUnitesMax = 15;
-
+        int nbTours = 0;
+        int nbUnitesMax = 1500;
+    
+        //Compter le nombre de tours qui m'appartiennent
+        foreach (var tour in tourRavitaillements)
+        {
+            if (tour.proprietaire == this)
+            {
+                nbTours++;
+            }
+        }
+        
         for (int i = 0;
              i < nbUniteBase + nbTours &&
              unites.Count < nbUnitesMax;
              i++)
         {
             // Instancier une unite
-            ;
+            Unite newUnite = Instantiate(
+                prefabFantassin, 
+                transform.position,
+                Quaternion.identity).
+                GetComponent<Unite>();
+            
             // Ajouter l'unite a la liste des unites
+            unites.Add(newUnite);
+            
+                // Assigner l'unite a son equipe
+            newUnite.SetEquipe(this);
+        }
+    }
+    public void UniteMorte(Unite defunt)
+    {
+        unites.Remove(defunt);
+            
+        nbVieRestantes--;
 
+        if (nbVieRestantes <= 0)
+        {
+            Debug.Log("Je n'ai plus de vie");
         }
     }
 }
