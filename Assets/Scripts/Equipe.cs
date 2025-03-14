@@ -1,31 +1,29 @@
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Equipe : MonoBehaviour
 {
     public GameObject prefabFantassin;
-    List<Unite> unites = new List<Unite>();
-    public TourRavitaillement[] tourRavitaillements { get; private set; }
+    public GameObject prefabSappeur;
+    public List<Unite> unites = new List<Unite>();
+    public Tour[] tours { get; private set; }
     public int nbVieRestantes = 100;
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Renforcer", 1f, 1f);
-        
+        InvokeRepeating("Renforcer", 1f, 15f);
         //assigner la liste des tours 
-        tourRavitaillements = FindObjectsOfType<TourRavitaillement>();
+        tours = FindObjectsOfType<Tour>();
     }
 
     public void Renforcer()
     {
-        int nbUniteBase = 5;
+        int nbUniteBase = 2;
         int nbTours = 0;
-        int nbUnitesMax = 1500;
+        int nbUnitesMax = 6;
     
         //Compter le nombre de tours qui m'appartiennent
-        foreach (var tour in tourRavitaillements)
+        foreach (var tour in tours)
         {
             if (tour.proprietaire == this)
             {
