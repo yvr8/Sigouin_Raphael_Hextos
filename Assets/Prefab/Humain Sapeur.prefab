@@ -108,7 +108,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 1
-  m_BaseOffset: 0
+  m_BaseOffset: 1.95
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 2
 --- !u!114 &8907312641030095521
@@ -135,6 +135,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec0269347bcb571d9865bba14bec336, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <pointsVie>k__BackingField: 0
+  <pointsVieMax>k__BackingField: 3
+  <vitesseDeplacement>k__BackingField: 5
+  <delaiAttaque>k__BackingField: 1
 --- !u!114 &8554012909401353551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   etatActuel: 0
+  nemesis: {fileID: 0}
 --- !u!58 &-3693458506631542584
 CircleCollider2D:
   m_ObjectHideFlags: 0

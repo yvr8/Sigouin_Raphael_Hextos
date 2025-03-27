@@ -20,18 +20,22 @@ using UnityEngine.AI;
 public class Unite : MonoBehaviour
 {
     // Attributs
+    [field: SerializeField]
     public float pointsVie { get; protected set; }
-    public float pointsVieMax { get; protected set; }
-    public float vitesseDeplacement { get; protected set; }
-    public Vector2 force { get; protected set; }
-    public float delaiAttaque { get; protected set; }
-    public float distanceAttaque { get; protected set; }
-    public float rayonAttaque { get; protected set; }
+    [field: SerializeField]
+    public float pointsVieMax { get; set; } = 100;
+    [field: SerializeField]
+    public float vitesseDeplacement { get; protected set; } = 5;
+    public Vector2 force { get; protected set; } = new Vector2(1, 2);
+    [field: SerializeField]
+    public float delaiAttaque { get; protected set; } = 1;
+    public float distanceAttaque { get; protected set; } = 3;
+    public float rayonAttaque { get; protected set; } = 3;
 
     public NavMeshAgent agent { get; private set; }
 
     // Timestamp de la derniereAttaque
-    public float tsDerniereAttaque { get; protected set; }
+    public float tsDerniereAttaque { get; protected set; } = 0;
 
     // Timestamp de la création de l'unité
     public float tsCreation { get; private set; }
@@ -43,6 +47,7 @@ public class Unite : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         tsCreation = Time.time;
+        pointsVie = pointsVieMax;
     }
     
     // Assigner l'équipe de l'unité
