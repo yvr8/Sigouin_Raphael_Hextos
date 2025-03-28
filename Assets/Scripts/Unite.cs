@@ -41,6 +41,7 @@ public class Unite : MonoBehaviour
     
     // Equipe de l'unité
     public Equipe equipe { get; private set; }
+    public GameObject prefabCrane;
 
     void Start()
     {
@@ -135,6 +136,9 @@ public class Unite : MonoBehaviour
         // Vérifier si l'unité est morte
         if (pointsVie <= 0f)
         {
+            //Faire apparaitre le crane
+            Instantiate(prefabCrane, transform.position, Quaternion.identity);
+            
             // Aviser l'équipe
             equipe.UniteMorte(this);
             

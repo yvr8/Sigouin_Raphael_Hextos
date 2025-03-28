@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -7651203115479408455}
   - component: {fileID: -5018434234455985160}
   - component: {fileID: -2411685906728909611}
+  - component: {fileID: 3066097274677146027}
   m_Layer: 0
   m_Name: Goblin Sapeur
   m_TagString: rouge
@@ -108,7 +109,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 1
-  m_BaseOffset: 1.98
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 2
 --- !u!114 &-7210560302107139234
@@ -124,9 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <pointsVie>k__BackingField: 0
-  <pointsVieMax>k__BackingField: 100
-  <vitesseDeplacement>k__BackingField: 5
-  <delaiAttaque>k__BackingField: 1
+  prefabCrane: {fileID: 5712246855492082036, guid: bc7326a0fa8b8e691958e5ac41d71bfe, type: 3}
 --- !u!114 &-7651203115479408455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78b9be701b468b17196074ced0d2d00f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  etatActuel: 0
+  etat: 0
 --- !u!58 &-5018434234455985160
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -187,3 +186,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e39f6090724e4a4a8aadeb042afa2bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &3066097274677146027
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8779222757417446081}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 86f031e133cd3b2488872b093927b223, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
