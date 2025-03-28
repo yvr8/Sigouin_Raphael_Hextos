@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingOrder: 50
   m_Sprite: {fileID: -1478519994, guid: 7fe9058b3710c014a8f8aa6a02548378, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 3, y: 3}
@@ -136,9 +136,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <pointsVie>k__BackingField: 0
-  <pointsVieMax>k__BackingField: 3
-  <vitesseDeplacement>k__BackingField: 5
-  <delaiAttaque>k__BackingField: 1
 --- !u!114 &8554012909401353551
 MonoBehaviour:
   m_ObjectHideFlags: 0

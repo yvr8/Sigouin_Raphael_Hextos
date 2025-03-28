@@ -22,20 +22,19 @@ public class Unite : MonoBehaviour
     // Attributs
     [field: SerializeField]
     public float pointsVie { get; protected set; }
-    [field: SerializeField]
-    public float pointsVieMax { get; set; } = 100;
-    [field: SerializeField]
-    public float vitesseDeplacement { get; protected set; } = 5;
-    public Vector2 force { get; protected set; } = new Vector2(1, 2);
-    [field: SerializeField]
-    public float delaiAttaque { get; protected set; } = 1;
-    public float distanceAttaque { get; protected set; } = 3;
-    public float rayonAttaque { get; protected set; } = 3;
+    public float pointsVieMax { get; protected set; }
+    public float vitesseDeplacement { get; protected set; }
+    public Vector2 force { get; protected set; }
+    public float delaiAttaque { get; protected set; }
+    public float distanceAttaque { get; protected set; }
+    public float rayonAttaque { get; protected set; }
 
     public NavMeshAgent agent { get; private set; }
+    public Animator animator { get; protected set; }
+    public SpriteRenderer spriteRenderer {get; protected set; }
 
     // Timestamp de la derniereAttaque
-    public float tsDerniereAttaque { get; protected set; } = 0;
+    public float tsDerniereAttaque { get; protected set; }
 
     // Timestamp de la création de l'unité
     public float tsCreation { get; private set; }
@@ -45,9 +44,25 @@ public class Unite : MonoBehaviour
 
     void Start()
     {
+        SetAttributs();
+    }
+
+    void Update()
+    {
+        AnimeMouvement();
+    }
+    protected virtual void SetAttributs()
+    {
         agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         tsCreation = Time.time;
+        pointsVieMax = 100.0f;
         pointsVie = pointsVieMax;
+        force = new Vector2(1.0f, 3.0f);
+        delaiAttaque = 1.0f;
+        distanceAttaque = 2.0f;
+        rayonAttaque = 1.0f;
     }
     
     // Assigner l'équipe de l'unité
@@ -82,13 +97,14 @@ public class Unite : MonoBehaviour
             return;
         }
         
-        // Effectuer l'attaque (avec des dégats aléatoires)
-        InfligerDegats(position, Random.Range(force.x, force.y));
+        // Effectuer l'attaque (avec des dégats aléatoires) et executer l'animation
+        InfligerDegats(position);
+        AnimeAttaque();
         
         // Remettre le timestamp à "maintenant"
         tsDerniereAttaque = Time.time;
     }
-    protected virtual void InfligerDegats(Vector2 position, float degats)
+    protected virtual void InfligerDegats(Vector2 position)
     {
         // Récupérer les colliders à proximité de position
         Collider2D[] colliders = Physics2D.OverlapCircleAll(position, rayonAttaque);
@@ -99,15 +115,15 @@ public class Unite : MonoBehaviour
             if (// Vérifier s'il s'agit d'une unité
                 collider.gameObject.GetComponent<Unite>() is not null
                 // Vérifier si elle est dans l'équipe adverse
-                && collider.gameObject.GetComponent<Unite>().equipe == equipe)
+                && collider.gameObject.GetComponent<Unite>().equipe != equipe)
             { 
                 // Infliger des dégats
-                collider.gameObject.GetComponent<Unite>().SubirDegats(degats);
+                collider.gameObject.GetComponent<Unite>().SubirDegats(Random.Range(force.x, force.y));
             }
         }
     }
 
-    void SubirDegats(float degats)
+    public void SubirDegats(float degats)
     {
         // Vérifier l'immunité de 2 secondes
         if (Time.time < tsCreation + 2f)
@@ -125,5 +141,30 @@ public class Unite : MonoBehaviour
             // Disparition
             Destroy(gameObject);
         }
+    }
+
+    void AnimeMouvement()
+    {
+        if (agent.velocity.magnitude > 0.1f)
+        {
+            animator.SetBool("enDeplacement", true);
+        }
+        else
+        {
+            animator.SetBool("enDeplacement", false);
+        }   
+        if (agent.velocity.x > 0.5f)
+        {
+            spriteRenderer.flipX = false;
+        }
+        else if (agent.velocity.x < -0.5f)
+        {
+            spriteRenderer.flipX= true;
+        }   
+    }
+
+    void AnimeAttaque()
+    {
+        animator.SetTrigger("attaque");
     }
 }

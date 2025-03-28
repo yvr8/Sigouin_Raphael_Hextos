@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingOrder: 50
   m_Sprite: {fileID: 590178598, guid: d0191466bf4a74d4f94bc91528a085b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 3, y: 3}
@@ -109,7 +109,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 1
-  m_BaseOffset: 1.95
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 2
 --- !u!114 &3950310269322239979
@@ -137,9 +137,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <pointsVie>k__BackingField: 0
-  <pointsVieMax>k__BackingField: 3
-  <vitesseDeplacement>k__BackingField: 5
-  <delaiAttaque>k__BackingField: 1
 --- !u!114 &1559337773495776815
 MonoBehaviour:
   m_ObjectHideFlags: 0

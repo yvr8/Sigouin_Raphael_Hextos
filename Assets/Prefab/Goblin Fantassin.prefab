@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 9143566575553594675}
   - component: {fileID: -875825116810110686}
   - component: {fileID: 5519593499798739121}
-  - component: {fileID: -5943550165370763643}
   - component: {fileID: 3058791513378995855}
   - component: {fileID: -5770621162862511983}
+  - component: {fileID: -5140850617315109486}
+  - component: {fileID: 7093295020889411840}
   m_Layer: 0
   m_Name: Goblin Fantassin
   m_TagString: rouge
@@ -31,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 5477353000251911192}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.45, y: 1.5, z: 0}
+  m_LocalPosition: {x: -7.41, y: 1.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -108,7 +109,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 1
-  m_BaseOffset: 1.9499998
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 2
 --- !u!114 &5519593499798739121
@@ -123,19 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec0269347bcb571d9865bba14bec336, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-5943550165370763643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5477353000251911192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78b9be701b468b17196074ced0d2d00f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  etatActuel: 0
+  <pointsVie>k__BackingField: 0
 --- !u!58 &3058791513378995855
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -183,3 +172,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e39f6090724e4a4a8aadeb042afa2bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-5140850617315109486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5477353000251911192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5279853231360a4dd8f59e81a5fb1110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  etatActuel: 0
+  nemesis: {fileID: 0}
+--- !u!95 &7093295020889411840
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5477353000251911192}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9e89d6dfe9f5254eaa320b4400101840, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

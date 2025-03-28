@@ -123,6 +123,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec0269347bcb571d9865bba14bec336, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <pointsVie>k__BackingField: 0
+  <pointsVieMax>k__BackingField: 100
+  <vitesseDeplacement>k__BackingField: 5
+  <delaiAttaque>k__BackingField: 1
 --- !u!114 &-7651203115479408455
 MonoBehaviour:
   m_ObjectHideFlags: 0

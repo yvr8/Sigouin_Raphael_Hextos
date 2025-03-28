@@ -62,7 +62,6 @@ public class EtoileStar : MonoBehaviour
         // S'y diriger
         unite.SetDestination(unite.equipe.tours[indexTourAleatoire].transform.position);
         etatActuel = Etats.Marche;
-        return;
     }
 
     void Update_EtatMarche()
@@ -73,15 +72,16 @@ public class EtoileStar : MonoBehaviour
         Collider2D[] listeObject = Physics2D.OverlapCircleAll(transform.position, 8f);
         foreach (Collider2D collider in listeObject)
         {
-            if (nemesis is null && unite.equipe != collider.gameObject.GetComponent<Unite>().equipe)
+            if (!nemesis && unite.equipe != collider.gameObject.GetComponent<Unite>().equipe)
             {
                 nemesis = collider.gameObject.GetComponent<Unite>();
+            
+                // Sauvegarder la destination où l'unité allait
+                destinationInitiale = unite.agent.destination;
+                // Transition vers combat
+                etatActuel = Etats.Combat;
+                return;
             }
-            // Sauvegarder la destination où l'unité allait
-            destinationInitiale = unite.agent.destination;
-            // Transition vers combat
-            etatActuel = Etats.Combat;
-            return;
         }
 
         // Arrivé à destination, on retourne en attente
@@ -94,24 +94,20 @@ public class EtoileStar : MonoBehaviour
 
     void Update_EtatCombat()
     {
-        // Tant que ma cible est en vie
-        if (nemesis is not null)
+        if (nemesis)
         {
             // Se déplacer vers elle
             unite.SetDestination(nemesis.transform.position);
-
             // Tenter de l'attaquer
-            unite.Attaquer(nemesis.transform.position);
-
-            return;
+              unite.Attaquer(nemesis.transform.position);
         }
-
-        // Si la cible meurt, je continue vers ma destination initiale
-        unite.SetDestination(destinationInitiale);
-        etatActuel = Etats.Marche;
-
+        else
+        {
+            unite.SetDestination(destinationInitiale);
+            etatActuel = Etats.Attente;
+        }
     }
-
+    
     // Indique si l'unité à atteint sa destination
     bool UniteAtteintDestination()
     {

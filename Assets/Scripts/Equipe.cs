@@ -11,16 +11,16 @@ public class Equipe : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Renforcer", 1f, 15f);
+        InvokeRepeating("Renforcer", 1f, 5f);
         //assigner la liste des tours 
         tours = FindObjectsOfType<Tour>();
     }
 
     public void Renforcer()
     {
-        int nbUniteBase = 2;
+        int nbUniteBase = 50;
         int nbTours = 0;
-        int nbUnitesMax = 6;
+        int nbUnitesMax = 1000;
     
         //Compter le nombre de tours qui m'appartiennent
         foreach (var tour in tours)
