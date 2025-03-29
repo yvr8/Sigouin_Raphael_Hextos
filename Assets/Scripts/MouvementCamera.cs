@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security;
 using UnityEngine;
 
 public class MouvementCamera : MonoBehaviour
 {
     private Vector2 directionDeplacement;
-    public float vitesse
+    public float vitesse;
     void Update()
     {
-        Vector2 directionDeplacement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+        Vector3 directionDeplacement = new Vector3(horizontal, vertical, 0f);
 
-        float vitesse = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : moveSpeed;
-
-        transform.position += directionDeplacement * vitesse * Time.deltaTime;
+        transform.position += Time.deltaTime * directionDeplacement * vitesse;
     }
 }

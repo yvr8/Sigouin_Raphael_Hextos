@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4220376945144219614}
+  - component: {fileID: -6782630981072838473}
+  - component: {fileID: -8664087450642702982}
   - component: {fileID: 6309872768330647330}
   - component: {fileID: 3653703081323663655}
   - component: {fileID: 8907312641030095521}
-  - component: {fileID: 1825014524798209218}
-  - component: {fileID: 8554012909401353551}
   - component: {fileID: -3693458506631542584}
   - component: {fileID: 8074893171177246621}
   m_Layer: 0
@@ -38,6 +38,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-6782630981072838473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485897629990487166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afe92d20e854cabb56048f4d1dc1845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  etatActuel: 0
+  nemesis: {fileID: 0}
+  nem1: 0
+  nem2: 0
+--- !u!114 &-8664087450642702982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485897629990487166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0743cb961dd732a56becaa3a21e2e5ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabCrane: {fileID: 5712246855492082036, guid: bc7326a0fa8b8e691958e5ac41d71bfe, type: 3}
 --- !u!212 &6309872768330647330
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -124,34 +153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e39f6090724e4a4a8aadeb042afa2bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1825014524798209218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6485897629990487166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ec0269347bcb571d9865bba14bec336, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <pointsVie>k__BackingField: 0
-  prefabCrane: {fileID: 5712246855492082036, guid: bc7326a0fa8b8e691958e5ac41d71bfe, type: 3}
---- !u!114 &8554012909401353551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6485897629990487166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5279853231360a4dd8f59e81a5fb1110, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  etatActuel: 0
-  nemesis: {fileID: 0}
 --- !u!58 &-3693458506631542584
 CircleCollider2D:
   m_ObjectHideFlags: 0
