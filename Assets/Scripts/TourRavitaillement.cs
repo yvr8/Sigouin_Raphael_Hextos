@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,17 +7,11 @@ using UnityEngine;
 
 public class TourRavitaillement : MonoBehaviour
 {
-    public Equipe proprietaire { get; private set; }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [field: SerializeField] public Equipe proprietaire { get; private set; }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        InvokeRepeating("VerifierProprietaire", 0f, .5f);
     }
 
     void VerifierProprietaire()

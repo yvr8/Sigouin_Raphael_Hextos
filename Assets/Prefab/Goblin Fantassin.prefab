@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78b9be701b468b17196074ced0d2d00f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  etat: 0
+  etatActuel: 0
 --- !u!114 &5519593499798739121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,7 +63,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec0269347bcb571d9865bba14bec336, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <pointsVie>k__BackingField: 0
   prefabCrane: {fileID: 5712246855492082036, guid: bc7326a0fa8b8e691958e5ac41d71bfe, type: 3}
 --- !u!212 &9143566575553594675
 SpriteRenderer:

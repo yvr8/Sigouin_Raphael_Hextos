@@ -36,9 +36,19 @@ public class Equipe : MonoBehaviour
              unites.Count < nbUnitesMax;
              i++)
         {
+            GameObject prefab;
+            if (Random.Range(1, 3) == 1)
+            {
+                prefab = prefabFantassin;
+            }
+            else
+            {
+                prefab = prefabSappeur;
+            }
+
             // Instancier une unite
             Unite newUnite = Instantiate(
-                prefabFantassin, 
+                prefab, 
                 transform.position,
                 Quaternion.identity).
                 GetComponent<Unite>();

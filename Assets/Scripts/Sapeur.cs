@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.AI;
 public class Sapeur : Unite
 {
+    public GameObject prefabDynamite;
     protected override void SetAttributs()
     {
         // Objects qui sont necessaire pour les differentes fonctionnalites d'une unite
@@ -25,5 +26,12 @@ public class Sapeur : Unite
         pointsVie = pointsVieMax;
         estSapeur = true;
         agent.speed = vitesseDeplacement;
+    }
+
+    protected override void InfligerDegats(Vector2 position)
+    {
+        GameObject dynamite = Instantiate(prefabDynamite, transform.position, Quaternion.identity);
+        Dynamite dynamiteScript = dynamite.GetComponent<Dynamite>();
+        dynamiteScript.Attaquer(position, rayonAttaque, Random.Range(force.x, force.y));
     }
 }
