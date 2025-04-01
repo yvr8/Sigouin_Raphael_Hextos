@@ -16,45 +16,41 @@ public class TourRavitaillement : MonoBehaviour
 
     void VerifierProprietaire()
     {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 3.0f);
-
-        Dictionary<Equipe, int> compteurEquipe = new Dictionary<Equipe, int>();
-
+        // Compte le nombre de troupe de chaque equipe autour de la tour 
+        Dictionary<Equipe, int> comptageEquipe= new Dictionary<Equipe, int>();
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 3f);
         foreach (Collider2D collider in colliders)
         {
-            Unite unite = collider.GetComponent<Unite>();
-            if (unite != null)
+            Unite component = collider.gameObject.GetComponent<Unite>();
+            if (!(component.equipe))
             {
-                Equipe equipe = unite.equipe;
+                comptageEquipe.Add(component.equipe, 1);    
+            }
+            else
+            {
+                comptageEquipe[component.equipe]++;   
+            }
+        }
+        // Trouve l'equipe avec le plus de troupe autour de la tour
+        Equipe equipeAvecLePlusDeTroupe = null;
+        int intMax = 0;
 
-                if (!compteurEquipe.ContainsKey(equipe))
-                {
-                    compteurEquipe[equipe] = 1;
-                }
-                else
-                {
-                    compteurEquipe[equipe]++;
-                }
+        foreach (var valeur in comptageEquipe)
+        {
+            if (valeur.Value > intMax)
+            {
+                intMax = valeur.Value;
+                equipeAvecLePlusDeTroupe = valeur.Key;
             }
         }
 
-        // Now find the Equipe with the highest count
-        int nombreDeTroupe = 0;
-        Equipe equipeAvecPlusTroupe = null;
-
-        foreach (KeyValuePair<Equipe, int> equipe in compteurEquipe)
+        if (comptageEquipe[equipeAvecLePlusDeTroupe] > 0)
         {
-            if (equipe.Value > nombreDeTroupe)
-            {
-                nombreDeTroupe = equipe.Value;
-                equipeAvecPlusTroupe = equipe.Key;
-            }
+            proprietaire = equipeAvecLePlusDeTroupe;    
         }
-
-        // definir le proprietaire
-        if (equipeAvecPlusTroupe != null)
+        else
         {
-            proprietaire = equipeAvecPlusTroupe;
+            proprietaire = null;
         }
     }
 }
