@@ -96,7 +96,7 @@ Animator:
   m_GameObject: {fileID: 5353065956593941789}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7baae0709134eb413b179c445bd3abca, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2a3e93f0b46d2c0f6a24694d027d63fe, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -119,14 +119,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1067361c169a5d6f6b756b467a138e2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  positionInitial: {x: 0, y: 0, z: 0}
-  positionFinal: {x: 0, y: 0, z: 0}
-  rayonExplosion: 0
-  gravite: 0
-  velocite: 0
-  force: 0
-  directionNormal: {x: 0, y: 0, z: 0}
-  deplacement: {x: 0, y: 0, z: 0}
-  tempsEcoule: 0
-  tempsFinal: 0
-  executer: 0

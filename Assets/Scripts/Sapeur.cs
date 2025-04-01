@@ -30,8 +30,7 @@ public class Sapeur : Unite
 
     protected override void InfligerDegats(Vector2 position)
     {
-        GameObject dynamite = Instantiate(prefabDynamite, transform.position, Quaternion.identity);
-        Dynamite dynamiteScript = dynamite.GetComponent<Dynamite>();
-        dynamiteScript.Attaquer(position, rayonAttaque, Random.Range(force.x, force.y));
+        Dynamite dynamite = Instantiate(prefabDynamite, transform.position, Quaternion.identity).GetComponent<Dynamite>();
+        dynamite.Init(position, rayonAttaque, Random.Range(force.x, force.y));
     }
 }
