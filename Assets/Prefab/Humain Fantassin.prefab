@@ -65,6 +65,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabCrane: {fileID: 5712246855492082036, guid: bc7326a0fa8b8e691958e5ac41d71bfe, type: 3}
+  sonDommage: {fileID: 8300000, guid: b28108354a0f509bdafc29529902c337, type: 3}
 --- !u!212 &4820103929119099768
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -32,7 +32,7 @@ public class Unite : MonoBehaviour
     public float tsDerniereAttaque { get; protected set; }
     public float tsCreation { get; protected set; }
     // Objet qui apparait a la mort de l'unite
-    public GameObject prefabCrane;
+    protected GameObject prefabCrane;
     // Equipe de l'unité
     public Equipe equipe { get; protected set; }
     // utilise par Sapeur.cs pour dire au script lalistar que l'unite est un sapeur
@@ -41,6 +41,7 @@ public class Unite : MonoBehaviour
     public NavMeshAgent agent { get;  protected set; }
     protected Animator animator { get;  set; }
     protected SpriteRenderer spriteRenderer {get;  set; }
+    protected GestionnaireAudio audioPlayer;
 
     void Start()
     {
@@ -57,6 +58,8 @@ public class Unite : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioPlayer = FindObjectOfType<GestionnaireAudio>();
+        
         
         tsCreation = Time.time;
         // creation des differentes stats de l'unite
@@ -65,7 +68,7 @@ public class Unite : MonoBehaviour
         delaiAttaque = Random.Range(1f, 1.5f);
         distanceAttaque = Random.Range(1.5f, 2.5f);
         rayonAttaque = Random.Range(0.5f, 1.5f);
-        vitesseDeplacement = Random.Range(3f, 5f);
+        vitesseDeplacement = Random.Range(3f, 4f);
         // autres
         pointsVie = pointsVieMax;
         estSapeur = false;
@@ -106,6 +109,7 @@ public class Unite : MonoBehaviour
         
         // Effectuer l'attaque (avec des dégats aléatoires) et executer l'animation
         InfligerDegats(position);
+        audioPlayer.PlaySonAttaque();
         AnimeAttaque();
         
         // Remettre le timestamp à "maintenant"
@@ -151,6 +155,8 @@ public class Unite : MonoBehaviour
             // Disparition
             Destroy(gameObject);
         }
+
+        audioPlayer.PlaySonDommage();
     }
 
     void AnimeMouvement()

@@ -15,7 +15,8 @@ public class TourRavitaillement : MonoBehaviour
     }
 
     void VerifierProprietaire()
-    {
+    {   
+        // verifier les unites autour de la tour de ravitaillement et compter le numbre d'unites par equipe
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 3.0f);
 
         Dictionary<Equipe, int> compteurEquipe = new Dictionary<Equipe, int>();
@@ -38,7 +39,7 @@ public class TourRavitaillement : MonoBehaviour
             }
         }
 
-        // Now find the Equipe with the highest count
+        // Equipe avec le plusi de troupe 
         int nombreDeTroupe = 0;
         Equipe equipeAvecPlusTroupe = null;
 

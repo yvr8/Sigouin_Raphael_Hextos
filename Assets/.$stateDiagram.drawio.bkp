@@ -1,261 +1,261 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
-    <mxGraphModel dx="857" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2511" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-56" value="Soldat" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;fillStyle=solid;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-56" value="Soldat" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;fillStyle=solid;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="650" y="260" width="1090" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-9" value="Attente" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=none;strokeWidth=2;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-56">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-9" value="Attente" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=none;strokeWidth=2;" parent="DFWAhEHn6ZQlZUm82mZ5-56" vertex="1">
           <mxGeometry x="10" y="30" width="350" height="170" as="geometry">
             <mxRectangle x="10" y="30" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <UserObject label="Definir ma destination pour la position du general" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-20">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-9">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-9" vertex="1">
             <mxGeometry x="10" y="100" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-19" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-9" source="DFWAhEHn6ZQlZUm82mZ5-20" target="DFWAhEHn6ZQlZUm82mZ5-21">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-19" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-9" source="DFWAhEHn6ZQlZUm82mZ5-20" target="DFWAhEHn6ZQlZUm82mZ5-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-21" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-9">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-21" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="DFWAhEHn6ZQlZUm82mZ5-9" vertex="1">
           <mxGeometry x="240" y="100" width="100" height="60" as="geometry" />
         </mxCell>
         <UserObject label="Si le general est mort" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-99">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-9">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-9" vertex="1">
             <mxGeometry x="10" y="30" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-100" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-9" source="DFWAhEHn6ZQlZUm82mZ5-99" target="DFWAhEHn6ZQlZUm82mZ5-101">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-100" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-9" source="DFWAhEHn6ZQlZUm82mZ5-99" target="DFWAhEHn6ZQlZUm82mZ5-101" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-101" value="Attente" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-9">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-101" value="Attente" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="DFWAhEHn6ZQlZUm82mZ5-9" vertex="1">
           <mxGeometry x="240" y="30" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-66" value="Marche" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=none;strokeWidth=2;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-56">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-66" value="Marche" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=none;strokeWidth=2;" parent="DFWAhEHn6ZQlZUm82mZ5-56" vertex="1">
           <mxGeometry x="370" y="30" width="350" height="380" as="geometry">
             <mxRectangle x="10" y="30" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <UserObject label="Si un enemie est dans mon rayon d&#39;attaque &amp;gt; donne un coup" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-71">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-66">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-66" vertex="1">
             <mxGeometry x="10" y="30" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-65" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-66">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-65" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="DFWAhEHn6ZQlZUm82mZ5-66" vertex="1">
           <mxGeometry x="240" y="170" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-63" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-66" source="DFWAhEHn6ZQlZUm82mZ5-64" target="DFWAhEHn6ZQlZUm82mZ5-65">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-63" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-66" source="DFWAhEHn6ZQlZUm82mZ5-64" target="DFWAhEHn6ZQlZUm82mZ5-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Si je suis loin du general &amp;gt; le rejoindre" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-64">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-66">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-66" vertex="1">
             <mxGeometry x="10" y="170" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Si le general attaque &amp;gt; attaquer l&#39;enemie le plus proche&amp;nbsp;" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-68">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-66">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-66" vertex="1">
             <mxGeometry x="10" y="310" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-67" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-66" source="DFWAhEHn6ZQlZUm82mZ5-68" target="DFWAhEHn6ZQlZUm82mZ5-69">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-67" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-66" source="DFWAhEHn6ZQlZUm82mZ5-68" target="DFWAhEHn6ZQlZUm82mZ5-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-69" value="attaque" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-66">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-69" value="attaque" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="DFWAhEHn6ZQlZUm82mZ5-66" vertex="1">
           <mxGeometry x="240" y="310" width="100" height="60" as="geometry" />
         </mxCell>
         <UserObject label="Si le general se dirige quelque part, aller dans une zone proche" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-73">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-66">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-66" vertex="1">
             <mxGeometry x="10" y="240" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-75" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-66">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-75" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="DFWAhEHn6ZQlZUm82mZ5-66" vertex="1">
           <mxGeometry x="240" y="240" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-74" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-66" source="DFWAhEHn6ZQlZUm82mZ5-73" target="DFWAhEHn6ZQlZUm82mZ5-75">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-74" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-66" source="DFWAhEHn6ZQlZUm82mZ5-73" target="DFWAhEHn6ZQlZUm82mZ5-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-91" value="Attente" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-66">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-91" value="Attente" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="DFWAhEHn6ZQlZUm82mZ5-66" vertex="1">
           <mxGeometry x="240" y="100" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-92" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-66" source="DFWAhEHn6ZQlZUm82mZ5-93" target="DFWAhEHn6ZQlZUm82mZ5-91">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-92" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-66" source="DFWAhEHn6ZQlZUm82mZ5-93" target="DFWAhEHn6ZQlZUm82mZ5-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Si le general est mort" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-93">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-66">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-66" vertex="1">
             <mxGeometry x="10" y="100" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-87" value="Attaque" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=none;strokeWidth=2;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-56">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-87" value="Attaque" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=none;strokeWidth=2;" parent="DFWAhEHn6ZQlZUm82mZ5-56" vertex="1">
           <mxGeometry x="730" y="30" width="350" height="230" as="geometry">
             <mxRectangle x="10" y="30" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <UserObject label="Cherche l&#39;enemie le plus proche et l&#39;attaque" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-88">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-87">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-87" vertex="1">
             <mxGeometry x="10" y="160" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-89" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-87" source="DFWAhEHn6ZQlZUm82mZ5-88" target="DFWAhEHn6ZQlZUm82mZ5-90">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-89" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-87" source="DFWAhEHn6ZQlZUm82mZ5-88" target="DFWAhEHn6ZQlZUm82mZ5-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-90" value="Attaque" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-87">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-90" value="Attaque" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="DFWAhEHn6ZQlZUm82mZ5-87" vertex="1">
           <mxGeometry x="240" y="160" width="100" height="60" as="geometry" />
         </mxCell>
         <UserObject label="Si le general est mort" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-96">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-87">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-87" vertex="1">
             <mxGeometry x="10" y="25" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-97" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-87" source="DFWAhEHn6ZQlZUm82mZ5-96" target="DFWAhEHn6ZQlZUm82mZ5-98">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-97" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-87" source="DFWAhEHn6ZQlZUm82mZ5-96" target="DFWAhEHn6ZQlZUm82mZ5-98" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-98" value="Attente" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-87">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-98" value="Attente" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="DFWAhEHn6ZQlZUm82mZ5-87" vertex="1">
           <mxGeometry x="240" y="25" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-102" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-87">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-102" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="DFWAhEHn6ZQlZUm82mZ5-87" vertex="1">
           <mxGeometry x="240" y="90" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-103" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-87" source="DFWAhEHn6ZQlZUm82mZ5-104" target="DFWAhEHn6ZQlZUm82mZ5-102">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-103" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-87" source="DFWAhEHn6ZQlZUm82mZ5-104" target="DFWAhEHn6ZQlZUm82mZ5-102" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Si je suis loin du general &amp;gt; le rejoindre" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-104">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-87">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-87" vertex="1">
             <mxGeometry x="10" y="90" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-106" value="General" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fillStyle=solid;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-106" value="General" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fillStyle=solid;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="650" y="690" width="1090" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-114" value="Marche" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=none;strokeWidth=2;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-106">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-114" value="Marche" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=none;strokeWidth=2;" parent="DFWAhEHn6ZQlZUm82mZ5-106" vertex="1">
           <mxGeometry x="370" y="30" width="350" height="310" as="geometry">
             <mxRectangle x="10" y="30" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-149" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-114" source="DFWAhEHn6ZQlZUm82mZ5-115" target="DFWAhEHn6ZQlZUm82mZ5-148">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-149" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="DFWAhEHn6ZQlZUm82mZ5-114" source="DFWAhEHn6ZQlZUm82mZ5-115" target="DFWAhEHn6ZQlZUm82mZ5-148" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Si un enemie est proche" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-115">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-114">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-114" vertex="1">
             <mxGeometry x="10" y="30" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Attaquer l&#39;enemie le plus proche" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-119">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-114">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-114" vertex="1">
             <mxGeometry x="10" y="170" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-120" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-114" source="DFWAhEHn6ZQlZUm82mZ5-119" target="DFWAhEHn6ZQlZUm82mZ5-121">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-120" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-114" source="DFWAhEHn6ZQlZUm82mZ5-119" target="DFWAhEHn6ZQlZUm82mZ5-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-121" value="attaque" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-114">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-121" value="attaque" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="DFWAhEHn6ZQlZUm82mZ5-114" vertex="1">
           <mxGeometry x="240" y="170" width="100" height="60" as="geometry" />
         </mxCell>
         <UserObject label="Se diriger vers la tour enemie la plus proche" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-122">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-114">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-114" vertex="1">
             <mxGeometry x="10" y="100" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-123" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-114">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-123" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="DFWAhEHn6ZQlZUm82mZ5-114" vertex="1">
           <mxGeometry x="240" y="100" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-124" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-114" source="DFWAhEHn6ZQlZUm82mZ5-122" target="DFWAhEHn6ZQlZUm82mZ5-123">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-124" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-114" source="DFWAhEHn6ZQlZUm82mZ5-122" target="DFWAhEHn6ZQlZUm82mZ5-123" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-148" value="Attaque" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-114">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-148" value="Attaque" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="DFWAhEHn6ZQlZUm82mZ5-114" vertex="1">
           <mxGeometry x="240" y="30" width="100" height="60" as="geometry" />
         </mxCell>
         <UserObject label="Si aucun enemie existe" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-151">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-114">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-114" vertex="1">
             <mxGeometry x="10" y="240" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-153" value="Attente" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-114">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-153" value="Attente" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="DFWAhEHn6ZQlZUm82mZ5-114" vertex="1">
           <mxGeometry x="240" y="240" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-155" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-114" source="DFWAhEHn6ZQlZUm82mZ5-151" target="DFWAhEHn6ZQlZUm82mZ5-153">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-155" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-114" source="DFWAhEHn6ZQlZUm82mZ5-151" target="DFWAhEHn6ZQlZUm82mZ5-153" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="270" as="sourcePoint" />
             <mxPoint x="430" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-128" value="Attaque" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=none;strokeWidth=2;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-106">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-128" value="Attaque" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=none;strokeWidth=2;" parent="DFWAhEHn6ZQlZUm82mZ5-106" vertex="1">
           <mxGeometry x="730" y="30" width="350" height="230" as="geometry">
             <mxRectangle x="10" y="30" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <UserObject label="Cherche l&#39;enemie le plus proche et l&#39;attaque" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-129">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-128">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-128" vertex="1">
             <mxGeometry x="10" y="160" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-130" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-128" source="DFWAhEHn6ZQlZUm82mZ5-129" target="DFWAhEHn6ZQlZUm82mZ5-131">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-130" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-128" source="DFWAhEHn6ZQlZUm82mZ5-129" target="DFWAhEHn6ZQlZUm82mZ5-131" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-131" value="Attaque" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-128">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-131" value="Attaque" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="DFWAhEHn6ZQlZUm82mZ5-128" vertex="1">
           <mxGeometry x="240" y="160" width="100" height="60" as="geometry" />
         </mxCell>
         <UserObject label="Si le general est mort" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-132">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-128">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-128" vertex="1">
             <mxGeometry x="10" y="25" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-133" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-128" source="DFWAhEHn6ZQlZUm82mZ5-132" target="DFWAhEHn6ZQlZUm82mZ5-134">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-133" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-128" source="DFWAhEHn6ZQlZUm82mZ5-132" target="DFWAhEHn6ZQlZUm82mZ5-134" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-134" value="Attente" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-128">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-134" value="Attente" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="DFWAhEHn6ZQlZUm82mZ5-128" vertex="1">
           <mxGeometry x="240" y="25" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-135" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-128">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-135" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="DFWAhEHn6ZQlZUm82mZ5-128" vertex="1">
           <mxGeometry x="240" y="90" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-136" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-128" source="DFWAhEHn6ZQlZUm82mZ5-137" target="DFWAhEHn6ZQlZUm82mZ5-135">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-136" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-128" source="DFWAhEHn6ZQlZUm82mZ5-137" target="DFWAhEHn6ZQlZUm82mZ5-135" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Si je suis loin du general &amp;gt; le rejoindre" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-137">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-128">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-128" vertex="1">
             <mxGeometry x="10" y="90" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-33" value="Attente" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=none;strokeWidth=2;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-106">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-33" value="Attente" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=none;strokeWidth=2;" parent="DFWAhEHn6ZQlZUm82mZ5-106" vertex="1">
           <mxGeometry x="10" y="30" width="350" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-34" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-33" source="DFWAhEHn6ZQlZUm82mZ5-35" target="DFWAhEHn6ZQlZUm82mZ5-36">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-34" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-33" source="DFWAhEHn6ZQlZUm82mZ5-35" target="DFWAhEHn6ZQlZUm82mZ5-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Si un enemie est a proximite, le definir comme cible." treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-35">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-33">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-33" vertex="1">
             <mxGeometry x="10" y="30" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-36" value="Attaque" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-33">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-36" value="Attaque" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="DFWAhEHn6ZQlZUm82mZ5-33" vertex="1">
           <mxGeometry x="240" y="30" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-37" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-33" source="DFWAhEHn6ZQlZUm82mZ5-38" target="DFWAhEHn6ZQlZUm82mZ5-39">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-37" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-33" source="DFWAhEHn6ZQlZUm82mZ5-38" target="DFWAhEHn6ZQlZUm82mZ5-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Trouve la tour la plus proche qui ne m&#39;appartient pas." treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-38">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-33">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-33" vertex="1">
             <mxGeometry x="10" y="100" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-39" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-33">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-39" value="Marche" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="DFWAhEHn6ZQlZUm82mZ5-33" vertex="1">
           <mxGeometry x="240" y="100" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-139" value="Equipe" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#f5f5f5;strokeColor=#666666;swimlaneFillColor=none;strokeWidth=2;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-139" value="Equipe" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;labelBackgroundColor=none;fillColor=#f5f5f5;strokeColor=#666666;swimlaneFillColor=none;strokeWidth=2;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="280" y="260" width="350" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-140" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="DFWAhEHn6ZQlZUm82mZ5-139" source="DFWAhEHn6ZQlZUm82mZ5-141" target="DFWAhEHn6ZQlZUm82mZ5-142">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-140" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="DFWAhEHn6ZQlZUm82mZ5-139" source="DFWAhEHn6ZQlZUm82mZ5-141" target="DFWAhEHn6ZQlZUm82mZ5-142" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Verifie si le general existe" treeRoot="1" id="DFWAhEHn6ZQlZUm82mZ5-141">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-139">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;glass=0;" parent="DFWAhEHn6ZQlZUm82mZ5-139" vertex="1">
             <mxGeometry x="10" y="30" width="210" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-142" value="Definie un general" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;" vertex="1" parent="DFWAhEHn6ZQlZUm82mZ5-139">
+        <mxCell id="DFWAhEHn6ZQlZUm82mZ5-142" value="Definie un general" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};shadow=0;rounded=1;" parent="DFWAhEHn6ZQlZUm82mZ5-139" vertex="1">
           <mxGeometry x="240" y="30" width="100" height="60" as="geometry" />
         </mxCell>
       </root>

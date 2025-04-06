@@ -6,12 +6,16 @@ public class Equipe : MonoBehaviour
     public GameObject prefabFantassin;
     public GameObject prefabSappeur;
     public List<Unite> unites = new List<Unite>();
-    public TourRavitaillement[] tours { get; private set; }
-    public int nbVieRestantes = 100;
+    public TourRavitaillement[] tours { get; set; }
+    public int nbVieRestantes { get; set; }
+    public int nbTours { get; protected set; }
+    public int nbUnitesMax { get; protected set; }
+
     // Start is called before the first frame update
     void Start()
     {
         InvokeRepeating("Renforcer", 1.0f, 15.0f);
+        nbVieRestantes = 100;
         //assigner la liste des tours 
         tours = FindObjectsOfType<TourRavitaillement>();
     }

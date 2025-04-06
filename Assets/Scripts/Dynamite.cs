@@ -16,6 +16,7 @@ public class Dynamite : MonoBehaviour
     private float rayonAttaque;
     private float force;
     private bool executer;
+    private GestionnaireAudio audioPlayer;
     
     // Update is called once per frame
     void Update()
@@ -26,6 +27,8 @@ public class Dynamite : MonoBehaviour
     public void Init(Vector2 positionFinal, float rayonAttaque = 3.0f, float force = 5.0f, float velocite = 4.0f, float gravite = -4.8f)
     {
         animator = GetComponent<Animator>();
+        audioPlayer = FindObjectOfType<GestionnaireAudio>();
+        
         this.positionInitial = transform.position;
         this.positionFinal = positionFinal;
         this.velocite = velocite;
@@ -48,6 +51,7 @@ public class Dynamite : MonoBehaviour
             if (tempsEcoule >= tempsFinal)
             {
                 Explosion();
+                audioPlayer.PlaySonExplosion();
                 executer = false;
             }
         }

@@ -65,6 +65,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabCrane: {fileID: 5712246855492082036, guid: bc7326a0fa8b8e691958e5ac41d71bfe, type: 3}
+  sonDommage: {fileID: 8300000, guid: b28108354a0f509bdafc29529902c337, type: 3}
   prefabDynamite: {fileID: 5353065956593941789, guid: 8b585605fa568100ba2477c125ff3b7c, type: 3}
 --- !u!212 &6309872768330647330
 SpriteRenderer:

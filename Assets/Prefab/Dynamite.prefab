@@ -119,3 +119,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1067361c169a5d6f6b756b467a138e2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sonDynamite: {fileID: 8300000, guid: 92d00045b113f74afb761e46315dcc9d, type: 3}
+  source: {fileID: 0}
