@@ -31,8 +31,8 @@ public class Unite : MonoBehaviour
     // variable de temps
     public float tsDerniereAttaque { get; protected set; }
     public float tsCreation { get; protected set; }
-    // Objet qui apparait a la mort de l'unite
-    protected GameObject prefabCrane;
+    // Objet qui apparait a la mort de l'unite  
+    public GameObject prefabCrane;
     // Equipe de l'unité
     public Equipe equipe { get; protected set; }
     // utilise par Sapeur.cs pour dire au script lalistar que l'unite est un sapeur
